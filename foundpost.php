@@ -91,7 +91,7 @@ $message_sent=
 
 //sending email now
 require 'vendor/autoload.php';
-$api_key = "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";
+$api_key = "enter sendgrid key";
 
 $email = new \SendGrid\Mail\Mail(); 
 $email->setFrom("sehphirry@gmail.com", "MSU founder of your ID");
