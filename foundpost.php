@@ -89,7 +89,7 @@ $message_sent=
 "Hello ".$name ."\nMSU's most convinent way of finding you lost student ID". "\r\n We have found your student id card. You can call one of our student" .$g." on +263".$call." to verify for your id card.\n \r\nmsu@2019";
 
 
-//sending email now
+//sending email now using sendgrid
 require 'vendor/autoload.php';
 $api_key = "enter sendgrid key";
 
