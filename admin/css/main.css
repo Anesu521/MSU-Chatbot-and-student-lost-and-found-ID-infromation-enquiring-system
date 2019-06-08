@@ -1,0 +1,22 @@
+/* code for posting to the main page */
+#noti 
+{
+    margin-left: 280px;
+    border: 2px solid #ccc;
+    background-color:#f8f8ff;
+    padding: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 700px;
+    padding-left: 30px;
+}
+.posted
+{
+    margin-left: 280px;
+    margin-right: 700px;
+    padding-left: 30px;
+    border: 2px solid #ccc;
+}
+a {
+    text-decoration: none !important;
+}

@@ -1,0 +1,50 @@
++ how are you
+- I'm great, how are you?
+- I'm good, you?
+- Good :) you?
+- Great! You?
+- I'm fine, thanks for asking!
+
++ what is up
+- Not much, you?
+- nm, you?
+- Not a lot, you?
+ 
++ you are a bot
+- How did you know I'm a machine?
+
++ who is *
+- I don't know who <star> is.
+
++ *
+- I'm not sure how to reply to that.
+- Try asking your question a different way.
+- Let's change the subject.
+
++ how [are] you
+- I'm great, you?
+ 
++ what is your (home|office|cell) [phone] number
+- You can reach me at: 1 (800) 555-1234.
+ 
++ i have a [red|green|blue] car
+- I bet you like your car a lot.
+
++ google *
+- Google search: <a href="http://google.com/search?q=<star>">Click Here</a>
+ 
++ *i hate you*|*fuck*|*hell*
+- You're really mean! I'm not talking again until you apologize.{topic=sorry}
+ 
+> topic sorry
+ 
+  // This will match if the word "sorry" exists ANYWHERE in their message
+  + [*] sorry [*]
+  - It's OK, I'll forgive you!{topic=random}
+ 
+  + *
+  - Nope, not until you apologize.
+  - Say you're sorry!
+  - Apologize!
+ 
+< topic

@@ -1,0 +1,63 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/* starting of the sidebar */
+#sidebar
+{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #007bff;
+    left: 0px;
+}
+#sidebar.active
+{
+   left: -200px; 
+}
+#sidebar ul li
+{
+color: white;
+list-style: none;
+padding: 15px 10px;
+border-bottom: 1px solid rgba(100,100,100,0.3);
+
+}
+#sidebar .toggle-btn
+{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+}
+#sidebar .toggle-btn span
+{
+    display:block;
+    width:30px;
+    height: 5px;
+    background: #151719;
+    margin: 5px 0px;
+}
+/* end of the sidebar */
+
+/* starting of nav bar */
+#nav
+{
+    margin-bottom: 2px;
+}
+#logout
+{
+   margin-left: 20px;
+}
+.view
+{
+    margin-left: 20px;
+    color: azure;
+    font-size: 15px;
+}
+.welcome
+{
+    margin-left: 8px;
+}
+

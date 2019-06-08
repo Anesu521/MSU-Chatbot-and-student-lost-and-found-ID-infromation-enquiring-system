@@ -1,0 +1,326 @@
+.border1
+{
+	border: #ddd solid;
+	margin: 50px;
+	border-radius: 10px;
+	margin-top: 2px !important;
+	border-top: none;
+}
+
+#frontimg
+{
+	width: 100%;
+	height: 50%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	/* animation */
+/* animation-delay: 1s; */
+	animation-duration: 2s;
+}
+#lets
+{
+	position: absolute;
+	top: 45%;
+	left: 14%;
+	color: #111;
+	border: #007bff 2px solid;
+	border-radius: 20px;
+	font-weight: bolder;
+	background-color: #007bff;
+	fill-opacity: unset;
+}
+#lets:hover
+{
+	color: whitesmoke;
+}
+#my
+{
+	position: absolute;
+	top: 45%;
+	left: 30%;
+  color: #111;
+  border: #007bff 2px solid;
+	border-radius: 20px;
+	font-weight: bolder;
+	background-color: #007bff;
+	fill-opacity: unset;
+}
+#online
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+  margin-bottom: 40px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 50px;
+  border-bottom: 8px solid #007bff;
+
+  /* animations */
+  animation-duration: 3s;
+
+}
+
+.vertical-center
+{
+display: table-cell;
+vertical-align: middle;
+}
+
+.before
+{
+background-color: #007bff;
+color: aliceblue;
+border-radius: 10px;
+}
+
+.before h3 
+{
+	font-weight: bold;
+}
+
+.section-photo h2
+{
+ font-size: 28px;
+ color: white;
+ text-align: center;
+ font-weight: 900;
+ text-shadow: 2px 2px 8px #111;
+ line-height: 40px;
+}
+.services
+{
+background: #f1f1f1;
+text-align: center;
+}
+.services h1
+{
+display: inline-block;
+text-transform: uppercase;
+border-bottom: 4px solid #007bff;
+font-size: 20px;
+padding-bottom: 10px;
+margin-top: 30px;
+font-weight: bold;
+}
+.headtext
+{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 550;
+	margin-bottom: 8;
+}
+
+.footer h1
+{
+	margin-top: 35px;
+}
+.footer img
+{
+	margin-top: 20px;
+	margin-bottom:30px;
+}
+.footer h4
+{
+	font-size: 10px;
+	margin-bottom: 30px;
+}
+.bottom-p
+{
+	text-align: justify ;
+	text-align: center;
+	font-size: 15px;
+	color: gray;
+	font-weight: 500;
+}
+.cen
+{
+	max-width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	padding: 20px;
+
+}
+.service
+{
+display: inline-block;
+width: calc(100%/3);
+margin: 0 -2px;
+font-size: 13px;
+ box-sizing: border-box;
+ border-radius: 10px;
+cursor: pointer;
+transition: 0.4s;
+}
+.service:hover
+{
+	background: #ddd;
+}
+.service i
+{
+	color: #3498db;
+	font-size: 34px;
+	margin-bottom: 30px;
+}
+.bottomlogo
+{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+.boxlogo
+{
+	margin-bottom: 8px;
+}
+@media screen and (max-width:500)
+{
+	.service{
+		width: 100%;
+
+	}
+}
+.wel
+{
+
+font-size: 18px;
+margin-left: 10px;
+margin-top: 7px;
+margin-bottom: 7px;
+font-weight: bolder;
+
+	/* animation */
+	animation-delay: 0.5s;
+	animation-duration: 2s;
+}
+#welcome
+{
+	color:steelblue;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 400;	
+	margin-right: 10px;
+}
+.top_m h2
+{
+	display: inline-block;
+	text-transform: uppercase;
+ font-weight: bold;
+ font-size: 30px;
+ color: #007bff;
+ font-weight: 300;
+ border-bottom: 4px solid black;
+ margin-bottom: none;
+}
+.top_n
+{
+	margin-top: none;
+	color: grey;
+	font-size: 12px;
+	font-style: italic;
+}
+
+/* MAIN PAGE */
+#wrapper
+{
+    display: flex;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+
+/*icons to specific places*/
+
+
+/*design for notificartion side*/
+
+
+
+/*for elarning login*/
+.right_eN
+{
+	flex: 0.4;
+	width: 50px;
+}
+.elearing
+{
+    color: white;
+    background-color: #007bff;
+    border: 1px solid #ccc;
+    padding: 10px;
+	font-weight: bold !important;
+}
+.elearing img
+{
+    padding-right: 5px;
+}
+.elearing a
+{
+    color: black;
+}
+
+/*notices*/
+.notices
+{
+	border: 1px solid #ccc;
+	margin-top: 8px;
+	border-top: none;
+}
+#not
+{
+	background-color: #007bff;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+}
+#not img
+{
+	margin-right: 5px;
+}
+
+/*post from admin*/
+.sub
+{
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	color: #007bff;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.un
+{
+	border-bottom: 1px dotted black;
+}
+
+/*information code is here*/
+.infor
+{
+	flex: 0.8;
+	margin-right: 8px;
+	border: 1px solid #cccccc;
+}
+#n
+{
+	background-color: #007bff;
+	padding: 10px;
+	font-size: 24px;
+}
+.infor h5
+{
+	color: white;
+	font-weight: bold;
+}
+#i
+{
+	color: black;
+}
+#pow
+{
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 500;
+}
+
+/*icons*/
+.icons
+{
+    display: flex;
+}
