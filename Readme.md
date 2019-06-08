@@ -18,3 +18,14 @@ HOW TO USE THE SYSTEM
 
 * To use the chatbot click on instant chat.
 * About lost student ids click on lost ids.
+
+
+REQUIREMENTS FOR THE SYSTEM / TOOLS USED TO DEVELOP THE SYSTEM
+-Rivescript
+-Brain.js
+-MySQL
+-PHP
+-CSS
+-Bootstrap
+-Pace.Js
+-HTML
