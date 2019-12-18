@@ -4,7 +4,7 @@ session_start();
 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "change_password";
 $dbname = "msu";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
